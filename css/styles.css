@@ -78,12 +78,16 @@ body {
 
 /* Section-1 Hero */
 .hero-section {
+  margin: 0 auto;
+}
+
+.hero-container {
   background: linear-gradient(
     180deg,
     rgba(17, 17, 17, 0) 0%,
     rgba(17, 17, 17, 0.4) 100%
   );
-  background-image: url("./chocolate-covered-cocoa-powder\ 1.jpg");
+  background-image: url("./chocolate-hero-bg.jpg");
   border-radius: 24px;
   width: 1136px;
   height: 600px;
