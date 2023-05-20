@@ -8,6 +8,7 @@ body {
   background-color: #e9e9e9;
   width: 1200px;
   margin: auto;
+  border: 1px solid #8cd9ff;
 }
 
 h1,
@@ -424,8 +425,27 @@ p {
 
 /* Footer */
 .footer {
+  display: flex;
+  flex-direction: column;
   background: #1e1823;
   margin-top: 100px;
+  padding: 32px;
+}
+
+.footer-first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer-second-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-title {
@@ -436,6 +456,7 @@ p {
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: #ffffff;
+  margin-right: 672px;
 }
 
 .contacts-text {
@@ -443,8 +464,9 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+  margin-bottom: 14px;
 }
 
 .contacts-links {
@@ -468,6 +490,26 @@ p {
   color: #ffffff;
 }
 
+.subscribe-cont {
+  flex-wrap: nowrap;
+}
+
+.subscribe-btn {
+  padding: 17px 30px;
+  isolation: isolate;
+  width: 137px;
+  height: 52px;
+  background: #fd9222;
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .text-field-mail {
   background: #1e1823;
   width: 313px;
@@ -479,8 +521,8 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.302);
+  padding: 14px 24px;
 }
