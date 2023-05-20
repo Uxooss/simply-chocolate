@@ -24,7 +24,7 @@
     <title>Simply Chocolate</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="nav-container">
         <a class="logo link" href="./index.html"
           >simply <span class="sub-logo">chocolate</span>
@@ -38,12 +38,12 @@
         />
 
         <ul class="nav-items-list list">
-          <li><a class="nav-item link" href="">Home</a></li>
+          <li><a class="nav-item link" href="#home">Home</a></li>
           <li>
-            <a class="nav-item link" href="">How it’s made?</a>
+            <a class="nav-item link" href="#made">How it’s made?</a>
           </li>
           <li>
-            <a class="nav-item link" href="">Chocolate is loved</a>
+            <a class="nav-item link" href="#loved">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
@@ -55,6 +55,7 @@
               alt="instagram icon"
               width="24"
               height="24"
+              rel="noreferrer noopener"
           /></a>
         </li>
         <li>
@@ -64,6 +65,7 @@
               alt="twitter icon"
               width="24"
               height="24"
+              rel="noreferrer noopener"
           /></a>
         </li>
       </ul>
@@ -187,7 +189,7 @@
       </section>
 
       <!-- How It`S Made? -->
-      <section class="made-section">
+      <section class="made-section" id="made">
         <h2 class="section-title">
           How It`S <span class="sub-title-color">Made?</span>
         </h2>
@@ -242,7 +244,7 @@
       </section>
 
       <!-- Reviews Section -->
-      <section class="review-section">
+      <section class="review-section" id="loved">
         <h2 class="review-section-title">
           <span class="sub-title-color">chocolate</span> is loved
         </h2>
@@ -328,12 +330,14 @@
       <div class="footer-second-row">
         <nav class="nav-container-footer">
           <ul class="nav-items-list list">
-            <li><a class="nav-footer-item link" href="">Home</a></li>
+            <li><a class="nav-footer-item link" href="#home">Home</a></li>
             <li>
-              <a class="nav-footer-item link" href="">How it`s made?</a>
+              <a class="nav-footer-item link" href="#made">How it`s made?</a>
             </li>
             <li>
-              <a class="nav-footer-item link" href="">Chocolate is loved</a>
+              <a class="nav-footer-item link" href="#loved"
+                >Chocolate is loved</a
+              >
             </li>
           </ul>
         </nav>
@@ -341,7 +345,7 @@
           <input
             class="text-field-mail"
             placeholder="Enter your email"
-            type="e-mail"
+            type="email"
           />
           <button class="subscribe-btn" type="submit">Subscribe</button>
         </form>

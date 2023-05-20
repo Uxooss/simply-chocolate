@@ -133,6 +133,7 @@ p {
 }
 
 .orange-btn {
+  cursor: pointer;
   width: 144px;
   height: 45px;
   background: #fd9222;
@@ -145,6 +146,7 @@ p {
 }
 
 .made-link {
+  cursor: pointer;
   text-align: center;
   width: 183px;
   height: 45px;
@@ -193,7 +195,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin: 50;
+  margin: 0;
 }
 
 .benefits-list-item {
@@ -414,6 +416,7 @@ p {
 }
 
 .review-btn {
+  cursor: pointer;
   padding: 14px 40px;
   gap: 14px;
   width: 222px;
@@ -421,6 +424,12 @@ p {
   border: 1px solid #fd9222;
   border-radius: 100px;
   align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #111111;
 }
 
 /* Footer */
@@ -445,6 +454,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
+  padding-bottom: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -495,6 +505,7 @@ p {
 }
 
 .subscribe-btn {
+  cursor: pointer;
   padding: 17px 30px;
   isolation: isolate;
   width: 137px;
