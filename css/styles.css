@@ -5,8 +5,16 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #111111;
   font-weight: 400;
-  background-color: #ffffff;
+  background-color: #e9e9e9;
   width: 1200px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
 
 .link {
@@ -220,10 +228,6 @@ body {
   margin: 0 37.5px 0;
 }
 
-.footer-title {
-  text-transform: capitalize;
-}
-
 .sub-title-color {
   color: #fd9222;
 }
@@ -293,13 +297,139 @@ body {
   margin-bottom: 36px;
 }
 
+/* How It`S Made? */
+.made-section {
+  margin-top: 100px;
+  padding: 0 32px 0;
+}
+
+.made-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(pastry-chef-preparing-chocolate-cake.jpg);
+  border-radius: 15px;
+}
+
+.made-section-container {
+  /* width: 1200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.made-section-container-text {
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 20px;
+  padding: 32px;
+}
+
+.made-section-container-title {
+  width: 370px;
+  margin: 0 0 4px 0;
+}
+
+.made-section-container-list {
+  padding: 0;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
+  margin: 0 0 0 20px;
+}
+
+.made-section-container-list-item {
+  margin: 24px 14px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+
+/* Reviews Section */
+.review-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 32px 0;
+}
+
+.review-section-title {
+  margin: 0 0 50px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 0;
+}
+
+.review-section-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 49px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.review-list-item {
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 100px rgba(17, 17, 17, 0.03);
+  border-radius: 15px;
+  width: 360px;
+  height: 200px;
+  padding: 24px;
+  margin-top: 41px;
+}
+
+.customer-img {
+  position: absolute;
+}
+
+.customer-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111111;
+  margin: 32px 0 24px 0;
+}
+
+.customer-comment {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+  padding: 14px 40px;
+  gap: 14px;
+  width: 222px;
+  height: 50px;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  align-self: center;
+}
+
 /* Footer */
 .footer {
   background: #1e1823;
+  margin-top: 100px;
 }
 
 .footer-title {
-  text-transform: capitalize;
+  text-transform: none;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -342,7 +472,7 @@ body {
   background: #1e1823;
   width: 313px;
   height: 52px;
-  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border: 1.5px solid rgba(255, 255, 255, 0.149);
   border-radius: 30px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -352,5 +482,5 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: -0.02em;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.302);
 }
