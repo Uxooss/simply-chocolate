@@ -123,11 +123,16 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.buy-btn {
+.orange-btn {
   width: 144px;
   height: 45px;
   background: #fd9222;
   border-radius: 100px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .made-link {
@@ -202,7 +207,7 @@ body {
   padding: 0;
 }
 
-.taste-title {
+.section-title {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -215,7 +220,11 @@ body {
   margin: 0 37.5px 0;
 }
 
-.taste-sub-title {
+.footer-title {
+  text-transform: capitalize;
+}
+
+.sub-title-color {
   color: #fd9222;
 }
 
@@ -282,4 +291,66 @@ body {
 
 .taste-list-pic {
   margin-bottom: 36px;
+}
+
+/* Footer */
+.footer {
+  background: #1e1823;
+}
+
+.footer-title {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.contacts-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contacts-links {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.nav-footer-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.text-field-mail {
+  background: #1e1823;
+  width: 313px;
+  height: 52px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.3);
 }
